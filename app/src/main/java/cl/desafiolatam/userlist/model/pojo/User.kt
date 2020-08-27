@@ -24,5 +24,8 @@ package cl.desafiolatam.userlist.model.pojo
 }
     */
 
-data class Post(val userId : Int, val id : Int, val title  : String,val body : String)
 
+data class User(val id : Int, val name : String, val email : String, val phone : String)
+
+/*data class Post(val userId : Int, val id : Int, val title  : String,val body : String)
+*/
